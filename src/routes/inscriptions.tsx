@@ -53,7 +53,7 @@ function InscriptionsPage() {
   return (
     <>
       <PageHero
-        title="Inscription à l'école privée de Sarras (Ardèche)"
+        title="Inscription à l'école privée de Sarras"
         subtitle="Vous cherchez une école en Ardèche pour votre enfant ? Un parcours d'inscription simple et accompagné, de la première visite à la rentrée. Les inscriptions sont ouvertes de la Toute Petite Section au CM2, tout au long de l'année selon les places disponibles. L'école accueille les enfants dès 2 ans et demi."
       />
 
