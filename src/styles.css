@@ -1,6 +1,8 @@
 @import "tailwindcss" source(none);
 @source "../src";
 @import "tw-animate-css";
+@import "@fontsource-variable/fraunces/opsz.css";
+@import "@fontsource-variable/source-sans-3/index.css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -42,8 +44,8 @@
 
 :root {
   --radius: 1rem;
-  --font-display-family: "Fraunces", Georgia, serif;
-  --font-sans-family: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  --font-display-family: "Fraunces Variable", "Fraunces", Georgia, serif;
+  --font-sans-family: "Source Sans 3 Variable", "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
 
   --background: oklch(0.982 0.008 95);
   --foreground: oklch(0.32 0.045 250);

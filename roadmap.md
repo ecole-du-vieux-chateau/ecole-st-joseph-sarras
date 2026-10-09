@@ -1,3 +1,4 @@
 - [x] Mettre en pleine largeur la section « Le projet d'établissement 2026 – 2031 »
 - [x] Refaire la page projet pastoral dans le style du site, sans photo, en changeant l'agencement des encadrés
 - [x] Flouter les visages d'enfants du nouveau lot et ajouter les photos à « Sorties scolaires »
+- [x] Charger les polices depuis le site (plus de lien bloquant Google Fonts) et appliquer font-display: swap
