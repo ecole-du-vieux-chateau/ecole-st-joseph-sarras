@@ -14,13 +14,13 @@ import { ContactCta, PageHero } from "@/components/page-hero";
 export const Route = createFileRoute("/vie-scolaire")({
   head: () => ({
     meta: [
-      { title: "Vie scolaire — Garderie, cantine et projets | École du Vieux Château" },
+      { title: "Vie scolaire — Garderie, cantine et projets | École privée du Vieux Château" },
       {
         name: "description",
         content:
           "Garderie de 7h30 à 8h20 et de 16h00 à 18h30, restauration scolaire, sorties éducatives, sport et projets artistiques à l'École du Vieux Château de Sarras.",
       },
-      { property: "og:title", content: "Vie scolaire — École du Vieux Château, Sarras" },
+      { property: "og:title", content: "Vie scolaire — École privée du Vieux Château, Sarras" },
       {
         property: "og:description",
         content:

@@ -64,13 +64,13 @@ import { PageHero } from "@/components/page-hero";
 export const Route = createFileRoute("/galerie")({
   head: () => ({
     meta: [
-      { title: "Galerie photos — École du Vieux Château, Sarras" },
+      { title: "Galerie photos — École privée du Vieux Château, Sarras" },
       {
         name: "description",
         content:
           "La vie de l'école en images : classes, activités, sorties scolaires et fêtes à l'École du Vieux Château de Sarras (Ardèche).",
       },
-      { property: "og:title", content: "Galerie photos — École du Vieux Château, Sarras" },
+      { property: "og:title", content: "Galerie photos — École privée du Vieux Château, Sarras" },
       {
         property: "og:description",
         content: "Classes, activités, sorties et fêtes : découvrez la vie de l'école en images.",
@@ -193,7 +193,7 @@ function GaleriePage() {
             <div className="school-photo-frame mx-auto mt-8 max-w-4xl overflow-hidden">
               <iframe
                 src="https://www.youtube.com/embed/TgzETXkyqvg"
-                title="Visite virtuelle de l'École du Vieux Château"
+                title="Visite virtuelle de l'École privée du Vieux Château"
                 loading="lazy"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

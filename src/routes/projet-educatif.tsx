@@ -10,13 +10,13 @@ const egliseImg = egliseAsset;
 export const Route = createFileRoute("/projet-educatif")({
   head: () => ({
     meta: [
-      { title: "Projet éducatif et pastoral — École du Vieux Château, Sarras" },
+      { title: "Projet éducatif et pastoral — École privée du Vieux Château, Sarras" },
       {
         name: "description",
         content:
           "Notre projet éducatif et pastoral : accompagnement global de l'enfant, autonomie, responsabilité, coopération, respect et valeurs chrétiennes d'accueil et de solidarité.",
       },
-      { property: "og:title", content: "Projet éducatif et pastoral — École du Vieux Château, Sarras" },
+      { property: "og:title", content: "Projet éducatif et pastoral — École privée du Vieux Château, Sarras" },
       {
         property: "og:description",
         content:

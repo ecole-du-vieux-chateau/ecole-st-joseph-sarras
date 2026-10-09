@@ -12,13 +12,13 @@ import { ContactCta, PageHero } from "@/components/page-hero";
 export const Route = createFileRoute("/les-classes")({
   head: () => ({
     meta: [
-      { title: "Les classes — Maternelle, Cycle 2, Cycle 3 | École du Vieux Château" },
+      { title: "Les classes — Maternelle, Cycle 2, Cycle 3 | École privée du Vieux Château" },
       {
         name: "description",
         content:
           "Trois classes à l'École du Vieux Château de Sarras : Maternelle (TPS à GS), Cycle 2 (CP-CE1) et Cycle 3 (CE2-CM1-CM2), dans des environnements adaptés à chaque âge.",
       },
-      { property: "og:title", content: "Les classes — École du Vieux Château, Sarras" },
+      { property: "og:title", content: "Les classes — École privée du Vieux Château, Sarras" },
       {
         property: "og:description",
         content:
@@ -113,7 +113,7 @@ function LesClassesPage() {
         <div className="school-photo-frame mx-auto mt-8 max-w-4xl overflow-hidden">
           <iframe
             src="https://www.youtube.com/embed/TgzETXkyqvg"
-            title="Visite virtuelle de l'École du Vieux Château"
+            title="Visite virtuelle de l'École privée du Vieux Château"
             loading="lazy"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen

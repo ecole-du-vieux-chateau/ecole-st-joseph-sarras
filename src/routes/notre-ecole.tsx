@@ -12,13 +12,13 @@ import { ContactCta, PageHero } from "@/components/page-hero";
 export const Route = createFileRoute("/notre-ecole")({
   head: () => ({
     meta: [
-      { title: "Notre école — École du Vieux Château, Sarras" },
+      { title: "Notre école — École privée du Vieux Château, Sarras" },
       {
         name: "description",
         content:
           "Établissement catholique sous tutelle Saint-Joseph et contrat d'association avec l'État. Programmes de l'Éducation nationale et accompagnement personnalisé à Sarras (07).",
       },
-      { property: "og:title", content: "Notre école — École du Vieux Château, Sarras" },
+      { property: "og:title", content: "Notre école — École privée du Vieux Château, Sarras" },
       {
         property: "og:description",
         content:
@@ -114,7 +114,7 @@ function NotreEcolePage() {
     <>
       <PageHero
         title="Une école privée catholique à taille humaine"
-        subtitle="École privée sous contrat ancrée dans la vie du village de Sarras, en Nord Ardèche, l'École du Vieux Château conjugue exigence éducative et climat familial, pour que chaque enfant apprenne en confiance."
+        subtitle="École privée sous contrat ancrée dans la vie du village de Sarras, en Nord Ardèche, l'École privée du Vieux Château conjugue exigence éducative et climat familial, pour que chaque enfant apprenne en confiance."
       />
 
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
