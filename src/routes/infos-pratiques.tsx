@@ -27,7 +27,7 @@ function InfosPratiquesPage() {
     <>
       <PageHero
         title="Informations pratiques"
-        subtitle="Tout ce qu'il faut savoir pour nous trouver, nous joindre et organiser votre venue."
+        subtitle="Située à Sarras en Nord Ardèche, à quelques minutes de Saint-Vallier, notre école maternelle et primaire vous accueille : tout pour nous trouver, nous joindre et organiser votre venue."
       />
 
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
