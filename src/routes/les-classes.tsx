@@ -64,7 +64,7 @@ function LesClassesPage() {
     <>
       <PageHero
         title="Trois classes, un même esprit"
-        subtitle="De la Toute Petite Section au CM2, chaque classe réunit plusieurs niveaux — une richesse qui favorise l'entraide, la différenciation et l'accompagnement de chaque enfant."
+        subtitle="À l'école privée de Sarras, de la Toute Petite Section au CM2 (maternelle et primaire), chaque classe réunit plusieurs niveaux — une richesse qui favorise l'entraide, la différenciation et l'accompagnement de chaque enfant."
       />
 
       <section className="mx-auto max-w-6xl space-y-16 px-4 py-16 sm:px-6">

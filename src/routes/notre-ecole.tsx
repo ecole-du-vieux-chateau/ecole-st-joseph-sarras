@@ -113,8 +113,8 @@ function NotreEcolePage() {
   return (
     <>
       <PageHero
-        title="Une école catholique à taille humaine"
-        subtitle="Ancrée dans la vie du village de Sarras, l'École du Vieux Château conjugue exigence éducative et climat familial, pour que chaque enfant apprenne en confiance."
+        title="Une école privée catholique à taille humaine"
+        subtitle="École privée sous contrat ancrée dans la vie du village de Sarras, en Nord Ardèche, l'École du Vieux Château conjugue exigence éducative et climat familial, pour que chaque enfant apprenne en confiance."
       />
 
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">

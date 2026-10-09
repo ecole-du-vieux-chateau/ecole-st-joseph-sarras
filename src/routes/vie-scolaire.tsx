@@ -43,7 +43,7 @@ function VieScolairePage() {
     <>
       <PageHero
         title="La vie scolaire, du matin au soir"
-        subtitle="Garderie, cantine et projets pédagogiques : tout est pensé pour faciliter le quotidien des familles et enrichir celui des enfants."
+        subtitle="Garderie périscolaire, cantine scolaire et projets pédagogiques à l'école primaire de Sarras : tout est pensé pour faciliter le quotidien des familles et enrichir celui des enfants."
       />
 
       {/* Garderie */}

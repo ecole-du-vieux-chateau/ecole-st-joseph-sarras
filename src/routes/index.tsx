@@ -161,10 +161,10 @@ function Index() {
           <div>
             <p className="text-sm font-semibold uppercase tracking-widest text-sage-foreground/80">Bienvenue</p>
             <h2 className="mt-3 text-3xl font-semibold leading-tight sm:text-4xl">
-              Une école familiale au cœur du village
+              Une école privée familiale au cœur de Sarras
             </h2>
             <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
-              Située à Sarras, en Ardèche, l'École du Vieux Château accueille les enfants de la Toute
+              École privée catholique sous contrat située à Sarras, en Nord Ardèche, l'École du Vieux Château est une école maternelle et primaire qui accueille les enfants de la Toute
               Petite Section au CM2 dans un cadre chaleureux et sécurisant. Grâce à ses effectifs
               réduits et à son équipe engagée, chaque enfant bénéficie d'un accompagnement attentif
               et personnalisé, dans le respect des programmes de l'Éducation nationale.
