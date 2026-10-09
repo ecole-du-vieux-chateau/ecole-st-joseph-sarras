@@ -92,7 +92,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   shellComponent: RootShell,
   component: RootComponent,
   notFoundComponent: NotFoundComponent,
-  errorComponent: ErrorComponent,
+  // Le routeur attend un composant « asynchrone » pour la fenêtre d'erreur.
+  errorComponent: Object.assign(ErrorComponent, { preload: () => Promise.resolve() }),
 });
 
 function RootShell({ children }: { children: ReactNode }) {
