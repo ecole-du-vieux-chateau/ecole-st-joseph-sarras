@@ -6,6 +6,7 @@ import {
   useRouter,
   HeadContent,
   Scripts,
+  type ErrorRouteComponent,
 } from "@tanstack/react-router";
 import { useEffect, type ReactNode } from "react";
 
@@ -92,8 +93,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   shellComponent: RootShell,
   component: RootComponent,
   notFoundComponent: NotFoundComponent,
-  // Le routeur attend un composant « asynchrone » pour la fenêtre d'erreur.
-  errorComponent: Object.assign(ErrorComponent, { preload: () => Promise.resolve() }),
+  // Le routeur attend un composant « asynchrone » ; le rendu reste identique.
+  errorComponent: ErrorComponent as unknown as ErrorRouteComponent,
 });
 
 function RootShell({ children }: { children: ReactNode }) {
