@@ -9,13 +9,13 @@ import { SCHOOL } from "@/lib/site";
 export const Route = createFileRoute("/inscriptions")({
   head: () => ({
     meta: [
-      { title: "Inscriptions — École du Vieux Château, Sarras (Ardèche)" },
+      { title: "Inscriptions — École privée du Vieux Château, Sarras (Ardèche)" },
       {
         name: "description",
         content:
           "Inscrire votre enfant à l'École du Vieux Château de Sarras : visite de l'école, dossier d'inscription et rentrée. Contactez-nous au 04 75 23 15 87.",
       },
-      { property: "og:title", content: "Inscriptions — École du Vieux Château, Sarras" },
+      { property: "og:title", content: "Inscriptions — École privée du Vieux Château, Sarras" },
       {
         property: "og:description",
         content:

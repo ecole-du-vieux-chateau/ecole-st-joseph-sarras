@@ -6,13 +6,13 @@ import { SCHOOL } from "@/lib/site";
 export const Route = createFileRoute("/infos-pratiques")({
   head: () => ({
     meta: [
-      { title: "Informations pratiques & contact — École du Vieux Château, Sarras" },
+      { title: "Informations pratiques & contact — École privée du Vieux Château, Sarras" },
       {
         name: "description",
         content:
           "Adresse, téléphone, horaires et plan d'accès de l'École du Vieux Château : 5 Place du Peycher, 07370 Sarras (Ardèche). Tél. 04 75 23 15 87.",
       },
-      { property: "og:title", content: "Informations pratiques — École du Vieux Château, Sarras" },
+      { property: "og:title", content: "Informations pratiques — École privée du Vieux Château, Sarras" },
       {
         property: "og:description",
         content: "Coordonnées, horaires et plan d'accès de l'école à Sarras (Ardèche).",
@@ -126,7 +126,7 @@ function InfosPratiquesPage() {
           <div className="flex flex-col gap-5">
             <div className="flex-1 overflow-hidden rounded-3xl bg-card shadow-sm">
               <iframe
-                title="Plan d'accès — École du Vieux Château, 5 Place du Peycher, 07370 Sarras"
+                title="Plan d'accès — École privée du Vieux Château, 5 Place du Peycher, 07370 Sarras"
                 src="https://www.google.com/maps?q=5+Place+du+Peycher,+07370+Sarras,+France&output=embed"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"

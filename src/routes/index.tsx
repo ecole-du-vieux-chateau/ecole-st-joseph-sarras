@@ -19,13 +19,13 @@ import { SCHOOL } from "@/lib/site";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "École du Vieux Château — École catholique à Sarras (Ardèche)" },
+      { title: "École privée du Vieux Château — École catholique à Sarras (Ardèche)" },
       {
         name: "description",
         content:
           "École catholique privée sous contrat avec l'État à Sarras (Ardèche), de la Toute Petite Section au CM2. 3 classes, accompagnement personnalisé et cadre bienveillant.",
       },
-      { property: "og:title", content: "École du Vieux Château — École catholique à Sarras (Ardèche)" },
+      { property: "og:title", content: "École privée du Vieux Château — École catholique à Sarras (Ardèche)" },
       {
         property: "og:description",
         content:
@@ -39,6 +39,7 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "School",
+          alternateName: "École privée du Vieux Château",
           name: SCHOOL.name,
           description:
             "École élémentaire et maternelle catholique privée sous contrat d'association avec l'État, de la Toute Petite Section au CM2.",
@@ -131,7 +132,7 @@ function Index() {
               École catholique · Sarras, Ardèche
             </p>
             <h1 className="max-w-2xl text-4xl font-semibold leading-tight text-background drop-shadow-lg sm:text-5xl lg:text-6xl">
-              École du Vieux Château
+              École privée du Vieux Château
             </h1>
             <p className="mt-4 max-w-xl text-lg font-medium leading-relaxed text-background drop-shadow-md sm:text-xl">
               {SCHOOL.slogan}
