@@ -15,6 +15,8 @@ export function SiteHeader() {
           <img
             src={logoAsset}
             alt="École privée du Vieux Château"
+            width={400}
+            height={400}
             className="h-24 w-auto"
           />
         </Link>

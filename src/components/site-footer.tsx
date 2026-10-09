@@ -12,6 +12,8 @@ export function SiteFooter() {
           <img
             src={logoAsset}
             alt="École privée du Vieux Château"
+            width={400}
+            height={400}
             className="h-36 w-auto md:h-40"
           />
           <p className="mt-4 max-w-xs text-center text-sm leading-relaxed text-muted-foreground md:text-left">
