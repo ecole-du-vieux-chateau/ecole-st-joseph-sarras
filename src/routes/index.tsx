@@ -132,9 +132,9 @@ function Index() {
               École catholique · Sarras, Ardèche
             </p>
             <h1 className="max-w-2xl text-4xl font-semibold leading-tight text-background drop-shadow-lg sm:text-5xl lg:text-6xl">
-              École privée du
+              École privée
               <br />
-              Vieux Château
+              du Vieux Château
             </h1>
             <p className="mt-4 max-w-xl text-lg font-medium leading-relaxed text-background drop-shadow-md sm:text-xl">
               {SCHOOL.slogan}
