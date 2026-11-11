@@ -5,6 +5,7 @@ const groupeAsset = "/images/photo-travail-groupe-flou.jpg";
 const groupeImg = groupeAsset;
 import { PageHero } from "@/components/page-hero";
 import { SCHOOL } from "@/lib/site";
+import { getTarifs } from "@/lib/tarifs";
 
 export const Route = createFileRoute("/inscriptions")({
   head: () => ({
