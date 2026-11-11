@@ -5,6 +5,7 @@ const groupeAsset = "/images/photo-travail-groupe-flou.jpg";
 const groupeImg = groupeAsset;
 import { PageHero } from "@/components/page-hero";
 import { SCHOOL } from "@/lib/site";
+import { getTarifs } from "@/lib/tarifs";
 
 export const Route = createFileRoute("/inscriptions")({
   head: () => ({
@@ -50,6 +51,7 @@ const STEPS = [
 ];
 
 function InscriptionsPage() {
+  const tarifs = getTarifs();
   return (
     <>
       <PageHero
@@ -121,11 +123,11 @@ function InscriptionsPage() {
             <article className="rounded-3xl bg-card p-8 shadow-sm">
               <h3 className="text-lg font-semibold">Scolarité</h3>
               <p className="mt-4">
-                <span className="text-4xl font-bold text-primary">42 €</span>
+                <span className="text-4xl font-bold text-primary">{tarifs.scolarite}</span>
                 <span className="text-muted-foreground"> / mois</span>
               </p>
               <p className="mt-2 text-sm text-muted-foreground">
-                Tarif réduit en Toute Petite Section : 21 € / mois.
+                Tarif réduit en Toute Petite Section : {tarifs.tps} / mois.
               </p>
             </article>
 
@@ -134,15 +136,15 @@ function InscriptionsPage() {
               <ul className="mt-4 space-y-2 text-muted-foreground">
                 <li className="flex justify-between">
                   <span>2 enfants</span>
-                  <span className="font-semibold text-foreground">80 €</span>
+                  <span className="font-semibold text-foreground">{tarifs.deuxEnfants}</span>
                 </li>
                 <li className="flex justify-between">
                   <span>3 enfants</span>
-                  <span className="font-semibold text-foreground">117 €</span>
+                  <span className="font-semibold text-foreground">{tarifs.troisEnfants}</span>
                 </li>
                 <li className="flex justify-between">
                   <span>4 enfants</span>
-                  <span className="font-semibold text-foreground">152 €</span>
+                  <span className="font-semibold text-foreground">{tarifs.quatreEnfants}</span>
                 </li>
               </ul>
               <p className="mt-4 text-sm text-muted-foreground">Par mois, quel que soit le niveau.</p>
