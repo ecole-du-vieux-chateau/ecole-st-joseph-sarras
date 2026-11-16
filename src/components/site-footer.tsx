@@ -75,9 +75,17 @@ export function SiteFooter() {
       <div className="border-t border-border/60">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-2 px-4 py-5 text-xs text-muted-foreground sm:flex-row sm:px-6">
           <p>© {new Date().getFullYear()} {SCHOOL.name} — Sarras. Tous droits réservés.</p>
-          <p className="flex gap-4">
+          <p className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
             <Link to="/mentions-legales" className="hover:text-foreground">Mentions légales</Link>
             <Link to="/politique-de-confidentialite" className="hover:text-foreground">Politique de confidentialité</Link>
+            <a
+              href="https://georgette-atelier-web.fr"
+              target="_blank"
+              rel="noopener"
+              className="text-muted-foreground/80 transition-colors hover:text-foreground"
+            >
+              Site réalisé par Georgette — atelier web
+            </a>
           </p>
         </div>
       </div>
